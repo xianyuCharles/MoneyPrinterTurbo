@@ -23,7 +23,7 @@ from pathlib import Path
 PROJECT_ARCHIVE_URL = (
     "https://github.com/harry0703/MoneyPrinterTurbo/archive/refs/heads/main.zip"
 )
-DEFAULT_ROOT = Path.home() / "MoneyPrinterTurbo"
+DEFAULT_ROOT = Path.home() / "星亦·影创AI"
 DEFAULT_VOICE_NAME = "zh-CN-XiaoxiaoNeural-Female"
 DEFAULT_UV_LOCK_TIMEOUT = "1200"
 NEEDS_INPUT_EXIT_CODE = 10

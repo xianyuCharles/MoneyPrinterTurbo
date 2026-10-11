@@ -138,7 +138,7 @@ def test_kimi_platform_selection_keeps_endpoint_configuration_consistent():
             "https://platform.kimi.ai/docs/models?track_id=track-9e3b711aa2594e378f6fe5b8de718a76&aff=moneyprinterturbo"
             in global_tips
         )
-        assert "offer ends December 31, 2026" in global_tips
+        assert "offer ends December 31, 2026" not in global_tips
 
         endpoint_select.set_value("china").run()
         china_base_url = _widget_by_key(
